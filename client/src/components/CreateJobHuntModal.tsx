@@ -36,7 +36,7 @@ type Props = {
   setModalOpened: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const JobHuntFormModal = ({ modalOpened, setModalOpened }: Props) => {
+const CreateJobHuntModal = ({ modalOpened, setModalOpened }: Props) => {
 
   const [title, setTitle] = useState("")
   const [link, setLink] = useState("")
@@ -81,4 +81,4 @@ const JobHuntFormModal = ({ modalOpened, setModalOpened }: Props) => {
   );
 };
 
-export default JobHuntFormModal;
+export default CreateJobHuntModal;
