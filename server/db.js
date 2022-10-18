@@ -4,7 +4,7 @@ const { Pool } = pkg;
 const db = new Pool({
   host: "localhost",
   user: "postgres",
-  password: process.env.PSQL_PW,
+  password: "abcd1234",
   port: 5432,
   database: "JobHunterApp",
 });
