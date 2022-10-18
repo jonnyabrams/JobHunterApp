@@ -1,5 +1,5 @@
 import express from "express";
-import { createJobHunt, deleteJobHunt, getAllJobHunts, getJobHunt, updateJobHunt } from "../controllers/jobHuntController";
+import { createJobHunt, deleteJobHunt, getAllJobHunts, getJobHunt, updateJobHunt } from "../controllers/jobHuntController.js";
 
 
 

@@ -5,7 +5,7 @@ const db = new Pool({
   host: "localhost",
   user: "postgres",
   password: process.env.PSQL_PW,
-  port: 8000,
+  port: 5432,
   database: "JobHunterApp",
 });
 
